@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+
+<html>
+ <head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <style>
+ body{
+  background-color: black;
+
+}
+.header {
+  padding: 100px;
+  text-align: center;
+  background: #778899;
+  color: white;
+  font-size: 30px;
+
+}
+h1{
+   text-align: center;
+   color: white;
+   margin: auto;
+   width: 50%;
+   background white;
+   border: 3px solid white;
+   padding: 10px;
+   text-color: white;
+}
+h2{
+  color: white;
+}
+
+ #page-container {
+  position: relative;
+  min-height: 100&;
+}
+
+#content-wrap {
+  padding-bottom: 5.5rem;    /* Footer height */
+}
+
+#footer {
+  position: relative;
+  background-color:#333;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  height:300px;            /* Footer height */
+}
+
+img {
+  border-radius: 50px;
+  height: 30px0px;
+  width: 30px;
+  border: 2px solid #ccc;
+  display: left;
+}
+
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 40px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The expanding image container */
+.container {
+    position: relative;
+    display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-google {
+  background: red;
+  color: white;
+}
+button{
+    background-color: #003300;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	position: absolute;
+}
+p {
+  color: white;
+}
+
+
+ </style>
+ </head>
+
+<body>
+  <header id = "header">
+    <div class = "header">
+<h1> John Marli Q. Baltazar</h1>
+</div>
+  </header>
+  
+<br>
+<br> 
+
+ <div id="page-container">
+
+<br>
+
+
+ <h1>Quotes I Like</h1>
+
+<br>
+
+<div class="slideshow-container">
+
+<div class="mySlides">
+  <q>The world always seems brighter when you've just made something that<br>
+     wasn't there before.</q>
+  <p class="author">- Neil Gaiman</p>
+</div>
+
+<div class="mySlides">
+  <q>And as I've gotten older, I've had more of a tendency to look for people<br>
+     who live by kindness, tolerance, compassion, a gentler way of looking at<br>
+     things.</q>
+  <p class="author">- Martin Scorsese</p>
+</div>
+
+<div class="mySlides">
+  <q>A Hero can be anyone<br>
+    Even a man doing something<br>
+    as simple and reassuring as <br>
+    putting a coat on a young boy's<br>
+    shoulders to let him know<br>
+    the world hadn't ended.
+  </q>
+  <p class="author">- Christopher Nolan</p>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">â®</a>
+<a class="next" onclick="plusSlides(1)">â¯</a>
+
+</div>
+
+<div class="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<br>
+
+<div style="text-align:center">
+  <h1>Movies I Like</h1>
+  <p>Click on the images below:</p>
+</div>
+
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+    <img src="Dark Knight.jpg" alt="Dark Knight" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="Inception.jpg" alt="Inception" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="The Godfather.jpg" alt="The GodFather" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="2.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+<script>
+function myFunction(imgs) {
+    var expandImg = document.getElementById("expandedImg");
+    var imgText = document.getElementById("imgtext");
+    expandImg.src = imgs.src;
+    imgText.innerHTML = imgs.alt;
+    expandImg.parentElement.style.display = "block";
+}
+</script>
+
+<button onclick="goBack()">Go Back</button>
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+<br>
+<br>
+<br>
+</div>
+   </div>
+   <footer id="footer">
+   <br>
+   <br>
+   <p>Contact me through:</p>
+   <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+  <a href="https://twitter.com/MarliBaltazar" class="fa fa-twitter"></a>
+  <a href="https://www.instagram.com/marlibaltazar/?hl=en" class="fa fa-instagram"></a>
+  <a href="https://mail.google.com/mail/u/0/#inbox" class="fa fa-google"></a>
+   </footer>
+ </div>
+</body>
+
+</html>
